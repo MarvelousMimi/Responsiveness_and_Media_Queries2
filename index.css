@@ -1,9 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@600&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
   width: 100%;
-  height: 100vh;
+  font-size: 18px;
+  background-color: white;
+}
+/* img {
+  height: 30px;
+  width: auto;
+} */
+header {
+  margin: auto;
+  padding: 30px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn1 {
+  color: hsl(192, 100%, 9%);
+  background-color: white;
+  border-radius: 20px;
+  border: white 2px solid;
+  padding: 5px;
+  align-items: center;
+  font-weight: 400;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.top1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.writeup {
+  padding: 40px;
+  flex: 50%;
+}
+.mock {
+  flex: 50%;
+  height: auto;
+  width: 1px;
+  padding: 150px;
+}
+.btn {
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.writeup h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding-bottom: 12px;
+  color: hsl(192, 100%, 9%);
+}
+.writeup p {
+  color: hsl(192, 100%, 9%);
+  font-weight: 700;
+  line-height: 22px;
+  padding-bottom: 15px;
+}
+.box {
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "grow flow user"
+    "grow flow user";
+  gap: 10px;
+}
+.grow {
+  grid-area: grow;
+  border-radius: 10px;
+  background-color: white;
+}
+.grow h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+}
+.grow p {
+  color: hsl(208, 11%, 55%);
+  font-weight: 700;
+}
+.growimg {
+  flex: 50%;
+  height: auto;
+  width: 1px;
+  padding: 10px;
+}
+.flowimg {
+  flex: 50%;
+  height: auto;
+  width: 1px;
+  padding: 10px;
+}
+.flow {
+  grid-area: flow;
+  border-radius: 10px;
+  background-color: white;
+}
+.flow h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+}
+.flow p {
+  color: hsl(208, 11%, 55%);
+  font-weight: 700;
+}
+.user {
+  grid-area: build;
+  border-radius: 10px;
+  background-color: white;
+}
+.user h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+}
+.user p {
+  color: hsl(208, 11%, 55%);
+  font-weight: 700;
+}
+.userimg {
+  flex: 50%;
+  height: auto;
+  width: 1px;
+  padding: 10px;
+}
+footer {
+  color: hsl(208, 11%, 55%);
+  background-color: hsl(192, 100%, 9%);
+}
+.last {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }
